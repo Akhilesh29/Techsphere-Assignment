@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
